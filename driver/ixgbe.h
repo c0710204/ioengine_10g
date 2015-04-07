@@ -34,6 +34,7 @@
 
 #include <linux/pci.h>
 #include <linux/netdevice.h>
+#undef NETIF_F_NTUPLE
 #include <linux/vmalloc.h>
 
 #ifdef SIOCETHTOOL
